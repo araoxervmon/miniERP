@@ -1,0 +1,46 @@
+#result {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333333;
+	background-color:#FFFF99;
+}
+.suggestionsBox {
+	position: absolute;
+	/*left: 0px;
+	top:40px;
+	margin: 26px 0px 0px 0px;*/
+	width: 180px;
+	padding:0px;
+	background-color: #d6d7d6;
+	border: 1px solid #000000;
+	color: #333333;
+}
+.suggestionList {
+	margin: 0px;
+	padding: 0px;
+}
+.suggestionList ul li {
+	list-style:none;
+	margin: 0px;
+	padding: 2px 6px;
+	border-bottom:1px dotted #ffffff;
+	cursor: pointer;
+}
+.suggestionList ul li:hover {
+	color:#ffffff;
+}
+#suggestionsList ul {
+	color:#333333;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+}
+
+.load{
+background-image:url(../images/imgs/loader.gif);
+background-position:right;
+background-repeat:no-repeat;
+}
+
+#suggest {
+	position:relative;
+}

@@ -1,0 +1,4 @@
+<?php 
+define('CUSTOMER_SUMMARY_VERSION', '1.0');
+define('CUSTOMER_SUMMARY_FOLDER', 'customer_summary');
+define('CUSTOMER_SUMMARY_PATH', MODULES_PATH.CUSTOMER_SUMMARY_FOLDER.'/');

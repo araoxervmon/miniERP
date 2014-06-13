@@ -1,0 +1,4 @@
+<?php 
+define('CUSTOMER_BILLING_VERSION', '1.0');
+define('CUSTOMER_BILLING_FOLDER', 'customer_billing');
+define('CUSTOMER_BILLING_PATH', MODULES_PATH.CUSTOMER_BILLING_FOLDER.'/');

@@ -1,0 +1,4 @@
+<?php 
+define('FACTORY_MATERIAL_VERSION', '1.0');
+define('FACTORY_MATERIAL_FOLDER', 'factory_material');
+define('FACTORY_MATERIAL_PATH', MODULES_PATH.FACTORY_MATERIAL_FOLDER.'/');

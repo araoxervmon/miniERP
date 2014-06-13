@@ -1,0 +1,175 @@
+/* Login CSS created by Gaurav @start */
+*{
+	margin:0;
+	padding:0;
+}
+html, body{
+	font:normal 14px Calibri, Arial, sans-serif;
+	color:#414141;
+	background: url(../images/imgs/login_bg.jpg) no-repeat top center fixed;	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-y:scroll;
+	overflow:hidden;
+}
+
+a{
+	color:#ffffff;
+	text-decoration:underline;
+	font:normal 12px Calibri, Arial, sans-serif;
+}
+
+#header_login{
+	margin:75px auto 10px;
+	width:453px;
+	height:100px;
+	position: relative;
+}
+
+div#login { 
+	margin:20px auto 0px;
+	background:url(../images/imgs/login_panel_bg.png) no-repeat;
+	width:333px;
+	height:343px;
+	position: relative;
+	color:#ffffff;
+}
+
+img#login_logo { 
+	margin: 20px auto 10px auto;
+}
+
+#login input[type="text"],  input[type="password"]{
+	border: solid 1px #E5E5E5;
+	background: #FFFFFF;
+	color:#414141;
+	margin: 5px 0px 0px 5px;
+	padding: 5px 9px;
+	font:normal 14px Calibri, Arial, sans-serif;
+	width:200px;
+	background: 
+		-webkit-gradient(
+			linear,
+			left top,
+			left 25,
+			from(#FFFFFF),
+			color-stop(4%, #EEEEEE),
+			to(#FFFFFF)
+		);
+	background: 
+		-moz-linear-gradient(
+			top,
+			#FFFFFF,
+			#EEEEEE 1px,
+			#FFFFFF 25px
+			);
+	-moz-box-shadow: 0px 0px 8px #f0f0f0;
+	-webkit-box-shadow: 0px 0px 8px #f0f0f0;
+	box-shadow: 0px 0px 8px #f0f0f0;
+}
+#login input[type="text"]:hover,  input[type="password"]:hover{
+	background: #d6d7d6;
+}
+
+#login input[type="submit"], input[type="button"]  {
+	background: url('../images/imgs/loginbtn.png') no-repeat;
+	color: #ffffff;
+	font:bold 14px Calibri, Arial, sans-serif;
+	text-align: center;
+	width: 113px;
+	height:48px;
+	cursor:pointer;
+	border:0px !important;
+	margin: 0px 5px;
+}
+
+#login input[type="submit"]:hover, input[type="button"]:hover  {
+	color: #d6d7d6;
+}
+
+#login label{ 
+	font:normal 16px Calibri, Arial, sans-serif;
+	padding:10px 10px 0px 0px;
+	color:#ffffff;
+	text-transform:initcap;
+}
+
+div#login h1 { 
+	background: none;
+	font-size: 16px;
+	margin-bottom: 0;
+	margin-left: 92px;
+}
+
+div#login h3 { 
+	font:bold 16px Calibri, Arial, sans-serif;
+	color:#ffffff;
+	text-transform:initcap;
+}
+
+div#login_inner { 
+	width: 310px; 
+	padding-top: 50px; 
+	margin: 10px auto 0 auto; 
+	position: relative; 
+}
+
+#login .form{
+}
+
+div#login_inner table { 
+	margin: 0 auto 0 auto; 
+}
+
+#login_inner td{
+	padding:15px 0px 0px;
+}
+
+div#login_notification { 
+	overflow: hidden;
+    padding: 5px 15px 0;
+    text-overflow: ellipsis;
+    width: 300px; 
+}
+
+#login_notification ul {
+	background:#CE0C3E;
+	border-radius:5px 5px 5px 5px;
+	border:1px solid #676767;
+	margin:0px;
+	padding:5px;
+	list-style: none outside none;
+}
+
+a#login_btn { 
+	width: 60px;
+}
+
+div#login_footer { 
+	position: absolute; 
+	width: 333px; 
+	bottom: -1px; 
+	color: #ffffff;
+}
+
+div#settingdiv { 
+	position: absolute; 
+	width: 333px; 
+	bottom: 30px; 
+	color: #ffffff;
+}
+
+#rightpanel {
+	padding:10px 12px 5px 0px;
+	width:190px; 
+	float:right;
+}
+
+#leftpanel {
+	padding:10px 0px 5px 12px;
+	width:110px;
+	float:left;
+}
+/* @end */

@@ -1,0 +1,215 @@
+/* Dashboard Column */
+td.jdash-column { vertical-align: top; }
+
+/* Dashboard Sector */
+div.jdash-sector {
+	margin: 15px;
+	background: #FCFCFC;
+	border: 1px dashed #BBBBBB;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	display: none;
+}
+
+div #jDash{
+	border:0px solid #d6d7d6;
+}
+
+/*
+ * Dashboard Item 
+ */
+
+/* Dashboard Item */
+div.jdash-item {
+	background: white;
+	position: relative;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 15px;
+	z-index: 5;
+
+}
+/* Dashboard Item - While Dragging */
+div.jdash-item.dragging { z-index: 10; }
+
+
+/*
+ * Dashboard Item Header
+ */
+
+/* Item Head */
+h1.jdash-head {	
+	-moz-border-radius-topright:.30em; 
+	-webkit-border-top-right-radius:.30em; 
+	border-top-right-radius:.30em;
+	-moz-border-radius-topleft:.30em; 
+	-webkit-border-top-left-radius:.30em; 
+	border-top-left-radius:.30em;
+	
+	border-top: 1px solid #e4e4e4;
+	border-left: 1px solid #e4e4e4;
+	border-right: 1px solid #e4e4e4;
+	font-size: 15px;
+	font-family: Calibri, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	height:32px;
+	background: #ffffff url("../images/imgs/header_bg.png") no-repeat top left;
+}
+
+/* Item Head - Collapsed */
+div.jdash-item.collapse h1.jdash-head {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-bottom: 0;
+}
+
+/* Item Title */
+div.jdash-head-title {
+	padding: 7px 12px;
+	cursor: move;
+	color: #ffffff;
+}
+/* Item Title - While Hovering */
+div.jdash-head-title:hover { color: #FAFAFA; }
+/* Item Title - While Hovering - Sub Title */
+div.jdash-head-title:hover span.sub-title { color: #FAFAFA; }
+
+/* Item Collapse - Expanded */
+div.jdash-head-collapse {
+	display: none;
+	border-left: 1px solid #fafafa;
+	height: 25px;
+	width: 30px;
+	background: url("../images/imgs/arrow-up.png") no-repeat center 10px;
+	cursor: default;
+}
+/* Item Collapse - Collapsed */
+div.jdash-item.collapse div.jdash-head-collapse {
+	background: url("../images/imgs/arrow-down.png") no-repeat center 11px;
+}
+
+/* Item Collapse - Hover */
+div.jdash-item:hover div.jdash-head-collapse { display: block; }
+
+/* Item Toolbar */
+div.jdash-toolbar {
+	padding: 6px 2px;
+	margin: 0 7px;
+	font-weight: normal;
+	color: #333333;
+	border-top: 1px solid #DDDDDD;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 12px;
+	text-shadow: none;
+}
+
+/* Item Body */
+div.jdash-body {
+	font-size: 13px;
+	font-family: Calibri, Arial, sans-serif;
+	color: #333333;
+	padding: 10px 15px 15px;
+	overflow: hidden;
+	border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	-webkit-border-radius: 0 0 4px 4px;
+	background: white;
+	/*border: 1px solid #e4e4e4;*/
+	border-bottom: 1px solid #e4e4e4;
+	border-left: 1px solid #e4e4e4;
+	border-right: 1px solid #e4e4e4;
+	-webkit-box-shadow: 0 8px 6px -6px #ccc;
+	-moz-box-shadow: 0 8px 6px -6px #ccc;
+	box-shadow: 0 8px 6px -6px #ccc;
+}
+
+/* Lists */
+div.jdash-item ul {
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	list-style: url(../images/imgs/bullet.png);
+	font-size: 13px;
+}
+div.jdash-item ul li {
+	margin: 5px 0;
+	padding: 0;
+}
+
+/* Paragraphs */
+div.jdash-item p { margin: 10px 0; }
+div.jdash-item p:first-child { margin-top: -10px; }
+div.jdash-item p:last-child { margin-bottom: 0; }
+
+/* Links */
+div.jdash-item a {
+	color: #4F81BD;
+	text-decoration: none;
+}
+div.jdash-item a:hover { text-decoration: underline; }
+
+/* Heading 2 */
+div.jdash-item h2 {
+	color: #333333;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 13px;
+	margin: 4px 0;
+}
+
+/* Textboxes */
+div.jdash-item input[type="text"], div.jdash-item textarea {
+	padding: 5px 6px;
+	border: 1px solid #CCCCCC;
+	color: black;
+	-moz-border-radius: 2px;
+	font-size: 12px;
+	width: 200px;
+	margin: 0;
+	font-family: Calibri, Arial, sans-serif;
+	color: #333333;
+}
+div.jdash-item textarea { height: 80px; }
+div.jdash-item input[type="text"]:focus, div.jdash-item textarea:focus {
+	color: black;
+	border-color: #999999;
+}
+
+/* Buttons */
+div.jdash-item button::-moz-focus-inner { border: none; }
+div.jdash-item button {
+	-moz-border-radius: 2px;
+	background: #D7D7D7 url("../images/imgs/button.png") repeat-x;
+	border: 1px solid #C0C0C0;
+	padding: 4px 9px;
+	font-size: 12px;
+	font-family: Calibri, Arial, sans-serif;
+	color: #333333;
+	cursor: pointer;
+}
+div.jdash-item button:active {
+	border-color: #888888;
+	background: #9E9E9E url("../images/imgs/button-pressed.png") repeat-x;
+	color: #EEEEEE;
+}
+
+/* Button in Header */
+h1.jdash-head button { -moz-box-shadow: #F5F5F5 1px 1px 0; }
+
+/* Plus-Minus Class */
+div.jdash.plus-minus div.jdash-head-collapse {
+	background: url("../images/imgs/minus.png") no-repeat center 9px;
+}
+div.jdash.plus-minus div.jdash-item.collapse div.jdash-head-collapse {
+	background-image: url("../images/imgs/plus.png");
+}
+
+/* Padded Class */
+div.jdash.padded div.jdash-item h1.jdash-head {
+	-moz-border-radius: 4px;
+	border: 1px solid #CCCCCC !important;
+}
+div.jdash.padded div.jdash-item, div.jdash.padded div.jdash-sector { padding: 4px; }

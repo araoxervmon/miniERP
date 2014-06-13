@@ -1,0 +1,4 @@
+<?php 
+define('CUSTOMER_OUTWARD_VERSION', '1.0');
+define('CUSTOMER_OUTWARD_FOLDER', 'customer_outward');
+define('CUSTOMER_OUTWARD_PATH', MODULES_PATH.CUSTOMER_OUTWARD_FOLDER.'/');

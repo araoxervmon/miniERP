@@ -1,0 +1,4 @@
+<?php 
+define('AGED_RECEIVABLE_VERSION', '1.0');
+define('AGED_RECEIVABLE_FOLDER', 'aged_receivable');
+define('AGED_RECEIVABLE_PATH', MODULES_PATH.AGED_RECEIVABLE_FOLDER.'/');

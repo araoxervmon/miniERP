@@ -1,0 +1,4 @@
+<?php 
+define('FORMIGNITER_VERSION', '1.0');
+define('FORMIGNITER_FOLDER', 'formigniter');
+define('FORMIGNITER_PATH', MODULES_PATH.FORMIGNITER_FOLDER.'/');

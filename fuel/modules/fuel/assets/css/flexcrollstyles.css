@@ -1,0 +1,86 @@
+/* Scroll Bar Master Styling Starts Here */
+/* All comments can be freely removed from the css */
+
+.scrollgeneric {line-height: 1px;font-size: 1px;position: absolute;top: 0; left: 0;}
+
+/* force fleXcroll to always display the vertical scrollbase */
+.vscrollerbase {
+visibility: auto !important;
+}
+/* fleXcroll adapts to this CSS setting and sets positions correctly */
+
+
+/* And style your scrollbar like you normally do */
+.vscrollerbase {
+width: 10px;
+background: #F0F0F0;
+}
+.vscrollerbar {
+width: 10px;
+background: url(../images/imgs/scrollbar/scroller.png) repeat-y;
+border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+}
+.hscrollerbase {
+height: 10px;
+background: #F0F0F0;
+}
+.hscrollerbar {
+height: 10px;
+background: url(../images/imgs/scrollbar/scrollerhorz.jpg) repeat-x;
+border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+}
+.vscrollerbar, .hscrollerbar {
+padding: 10px;
+z-index: 2;
+}
+.vscrollerbarbeg {
+width: 10px;
+height: 10px !important;
+}
+.vscrollerbarend {
+width: 10px;
+height: 10px;
+}
+.hscrollerbarbeg {
+height: 10px;
+width: 10px !important;
+}
+.hscrollerbarend {
+height: 10px;
+width: 10px;
+}
+/*.scrollerjogbox {
+width: 10px;
+height: 10px;
+top: auto; left: auto;
+bottom: 0px; right: 0px;
+background: #4E727C;
+}*/
+.vscrollerbasebeg {
+background: url(../images/imgs/scrollbar/uparrow.jpg) no-repeat;
+width: 10px;
+height: 10px !important;
+}
+.vscrollerbaseend {
+background: url(../images/imgs/scrollbar/downarrow.jpg) no-repeat;
+height: 10px;
+width: 10px;
+}
+.hscrollerbasebeg {
+background: url(../images/imgs/scrollbar/leftarrow.jpg) no-repeat;
+height: 10px;
+width: 10px !important;
+}
+.hscrollerbaseend {
+height: 10px;
+width: 10px;
+background: url(../images/imgs/scrollbar/rightarrow.jpg) no-repeat;
+}
+.scrollerjogbox:hover {
+background: #5E828C;
+}
+/* Scroll Bar Master Styling Ends Here */
