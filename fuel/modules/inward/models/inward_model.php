@@ -33,9 +33,9 @@ class inward_model extends Base_module_model {
 		}
 	}
 	
-		function checkcoilno($_REQUEST) {
-		if($_REQUEST){
-		$pid = $_REQUEST["pid"];
+		function checkcoilno($REQUEST) {
+		if($REQUEST){
+		$pid = $REQUEST["pid"];
 		//$child_name = $_REQUEST["child_name"];
 		}
 		$checkdata = "select * from aspen_tblinwardentry where vIRnumber = '".$pid."'  LIMIT 0,1";

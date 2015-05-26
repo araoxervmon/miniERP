@@ -223,7 +223,7 @@
 				<td colspan="4">
 					<b>No Record Present!</b>					
 					<div>
-						<a class="ico ico_inventory_billing" href="<?=fuel_url('inventory_billing')?>">Click here to create new inventory billing.</a>
+						<a class="ico ico_inventory_billing" href="<?=fuel_url('tax_details')?>">Click here to create new tax details.</a>
 					</div>
 				</td>
 			</tr>

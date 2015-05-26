@@ -150,7 +150,7 @@ $("#quantity_on_hand").change(function() {
 	<tr>
 		<td align="left" valign="top" width="20px" style="background:url('<?php echo img_path('layout/div_topleft_norepeat.png'); ?>') no-repeat; height:50px; min-width:20px;">&nbsp;</td>
 		<td align="left" valign="top" style="background:url('<?php echo img_path('layout/div_topcenter_repeatx.png'); ?>') repeat-x; height:50px;">
-	      <?php include_once('topnav.php');?>
+	      <?php include_once(FUEL_PATH.'views/_blocks/topnav.php');?>
 			<div style="background:url('<?php echo img_path('layout/div_toph.png'); ?>') no-repeat; width:275px; height:50px;">&nbsp;</div>
 		</td>
 		<td align="left" valign="top" width="24px" style="background:url('<?php echo img_path('layout/div_topright_norepeat.png'); ?>') no-repeat; height:50px;">&nbsp;</td>
