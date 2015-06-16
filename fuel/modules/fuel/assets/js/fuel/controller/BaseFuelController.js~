@@ -224,7 +224,7 @@ fuel.controller.BaseFuelController = jqx.lib.BaseController.extend({
 		});
 		$('#multi_delete').hide();
 		
-		$('#rearrange').on('click', function(e){
+		$('#rearrange').live('click', function(e){
 			$(this).parent().toggleClass('active');
 			if ($(this).parent().hasClass('active')){
 				_this.rearrangeOn = true;
