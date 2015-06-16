@@ -757,21 +757,7 @@ class Data_table {
 			else
 			{
 				// i love regexp... key is the e modifier that evaluates the code
-				if (version_compare(PHP_VERSION, '5.5', '>='))
-				{
-					$url = preg_replace_callback('#^(.*)\{(.+)\}(.*)$#',
-						function($match) use ($fields) { 
-							if (!empty($match[2]))
-							{
-								return $match[1].$fields[$match[2]].$match[3];
-							}
-							return '';
-						}, $val['url']);
-				}
-				else
-				{
-						$url = preg_replace('#^(.*)\{(.+)\}(.*)$#e', "'\\1'.((!empty(\$fields['\\2'])) ? \$fields['\\2'] : '').'\\3'", $val['url']);
-				}
+				$url = preg_replace('#^(.*)\{(.+)\}(.*)$#e', "'\\1'.((!empty(\$fields['\\2'])) ? \$fields['\\2'] : '').'\\3'", $val['url']);
 				$attrs = (!empty($val['attrs'])) ? ' '.$this->_render_attrs($val['attrs']) : '';
 				$actions[] ='<a href="'.$url.'"'.$attrs.'>'.$key.'</a>';
 			}
