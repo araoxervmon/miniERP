@@ -19,8 +19,8 @@ class Billing_instruction_model extends Base_module_model {
 	}	
 	
 	 function billintable_model($pid){
-		 if(isset( $POST['pid'])) {
-			$pid = $POST['pid'];
+		 if(isset( $_POST['pid'])) {
+			$pid = $_POST['pid'];
 		  }
 		  $sql = "select * from aspen_tblcuttinginstruction "; 
 		  if(isset($pid)) {

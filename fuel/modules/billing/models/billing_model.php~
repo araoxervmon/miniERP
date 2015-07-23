@@ -17,7 +17,7 @@ class Billing_model extends Base_module_model {
 
 	function checkbillno($POST) {
   if($POST){
-  $billid = $POST["billid"];
+  $billid = $$POST["billid"];
   }
   $checkdata = "select * from aspen_tblbilldetails where nBillNo = '".$billid."'  LIMIT 0,1";
   $checkquery = $this->db->query($checkdata);
